@@ -1,0 +1,57 @@
+.filter-section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 15px 60px;
+    display: flex;
+    flex-direction: column; /* Change to column to align items vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+  
+  .topic-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add space between topic and count */
+  }
+  
+  .topic-label {
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    margin-right: 10px; /* Add space between label and topic container */
+  }
+  
+  .topic-container {
+    display: flex;
+    align-items: center;
+    background: #962d91;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+  
+  .topic {
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .clear-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    transform: translateY(5%) translateX(5%);
+    color: #fff;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+  }
+  
+  .clear-button:hover {
+    color: #cc0000;
+  }
+  
+  .count {
+    color: black;
+    font-size: 20px;
+    margin: 0;
+  }
